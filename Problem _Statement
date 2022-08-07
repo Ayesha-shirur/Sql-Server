@@ -1,0 +1,38 @@
+Perform the Following Operations and Capture the query plan before each query.
+
+SECTION A
+
+1. Write a query in SQL to list the Horror movies
+
+2. Write a query in SQL to find the name of all reviewers who have rated 8 or more stars
+
+3. Write a query in SQL to list all the information of the actors who played a role in the movie ‘Deliverance’.
+
+4. Write a query in SQL to find the name of the director (first and last names) who directed a movie that casted a role for 'Eyes Wide Shut'. (using subquery)
+
+5. Write a query in SQL to find the movie title, year, date of release, director and 
+actor for those movies which reviewer is ‘Neal Wruck’
+
+6. Write a query in SQL to find all the years which produced at least one movie and that received a rating of more than 4 stars. 
+
+7. Write a query in SQL to find the name of all movies who have rated their ratings with a NULL value
+
+8. Write a query in SQL to find the name of movies who were directed by ‘David’
+
+9. Write a query in SQL to list the first and last names of all the actors who were cast in the movie ‘Boogie Nights’, and the roles they played in that production.
+
+10.Find the name of the actor who have worked in more than one movie.
+
+
+SECTION B
+
+Use an appropriate combination of SQL, stored procedures and/or triggers to implement the ability to allow programmers to cast a new actor (by ID#) to a movie (by ID#). 
+
+Do not allow actors to be cast more than once for each movie.
+Demonstrate that your system works by trying the following.
+
+Cast George Faraday (# 124) in Slumdog Millionaire (# 921).
+Cast George Faraday in Back to the Future (# 928).
+Cast George Faraday (# 124) in Slumdog Millionaire (# 921)
+
+Record in the script comments what happens with each of these updates and why
